@@ -16,6 +16,6 @@ export const config = {
     // Local servers usually ignore the key, but the SDK requires a non-empty string.
     apiKey: process.env.LLM_API_KEY ?? "not-needed",
     // Default model id (e.g. the Qwen axmodel name registered in axllm).
-    model: process.env.LLM_MODEL ?? "qwen",
+    model: process.env.LLM_MODEL ?? "AXERA-TECH/Qwen3-1.7B",
   },
 } as const;
