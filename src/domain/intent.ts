@@ -29,3 +29,17 @@ export function buildMessages(userInput: string) {
     { role: "user" as const, content: userInput },
   ];
 }
+/**
+ * LLM 出力から JSON 本体を取り出す。
+ * Qwen3 + /no_think は `<think></think>\n\n{...}` を返すため、
+ * そのままでは JSON.parse できない。think ブロックを除去して本体を抽出する。
+ */
+export function extractJson(raw: string): string {
+  const withoutThink = raw.replace(/<think>[\s\S]*?<\/think>/g, "").trim();
+  const start = withoutThink.indexOf("{");
+  const end = withoutThink.lastIndexOf("}");
+  if (start === -1 || end === -1 || end < start) {
+    return withoutThink;
+  }
+  return withoutThink.slice(start, end + 1);
+}

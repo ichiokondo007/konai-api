@@ -5,7 +5,7 @@
 
 import { llm } from "../llm.js";
 import { config } from "../config.js";
-import { buildMessages } from "../domain/intent.js";
+import { buildMessages, extractJson } from "../domain/intent.js";
 
 export interface IntentResult {
   intent: string;
@@ -25,7 +25,7 @@ export async function parseIntent(userInput: string): Promise<IntentResult> {
   const raw = completion.choices[0]?.message?.content ?? "";
 
   try {
-    return JSON.parse(raw) as IntentResult;
+    return JSON.parse(extractJson(raw)) as IntentResult;
   } catch {
     throw new IntentParseError(raw);
   }
