@@ -18,4 +18,11 @@ export const config = {
     // Default model id (e.g. the Qwen axmodel name registered in axllm).
     model: process.env.LLM_MODEL ?? "AXERA-TECH/Qwen3-1.7B",
   },
+  /**
+   * Pico (kd1-controller) の HTTP API。
+   * 実機IPが未確定のため暫定値。確定後は .env の PICO_BASE_URL で上書きする。
+   */
+  pico: {
+    baseURL: process.env.PICO_BASE_URL ?? "http://10.20.10.50",
+  },
 } as const;
