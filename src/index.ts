@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import { config } from "./config.js";
 import { chatRouter } from "./routes/chat.js";
+import { intentRouter } from "./routes/intent.js";
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.get("/health", (_req, res) => {
 
 // LLM routes
 app.use("/api", chatRouter);
+app.use("/api", intentRouter);
 
 app.listen(config.port, () => {
   console.log(`konai-api listening on http://localhost:${config.port}`);
