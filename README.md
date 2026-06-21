@@ -23,7 +23,7 @@ LLM-8850 は、Raspberry Pi 5 に接続して利用する **ローカルAI推論
 - Axeraモデルとしてコンパイルしないと利用できない。（ AxeraモデルとしてGithubに用意されているもの推奨）
 
 ## 🤖LOCAL LLM HISTORY
-[ローカルLLM　HISTORY](./docs/history.png)
+  - [ローカルLLM　HISTORY](./docs/history.png)
 
 ## 🤖HOME LABのアプリケーションにLLMを組み込む
 - １）Intent制御とスロット抽出をLLMの自然言語でコントロールする。
