@@ -1,6 +1,7 @@
 
 # 🤖 Raspberry pi5　「ローカルLLMの活用」
 - Raspberry pi5 + llm8850(NPU) でローカルLLMを動かしてエッジAIとして活用。
+
 <img src="./docs/llm8850.png" width="500">
 
 ## LLM8850 NPUとは？
