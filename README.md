@@ -28,7 +28,9 @@ LLM-8850 は、Raspberry Pi 5 に接続して利用する **ローカルAI推論
 ## HOME LABのアプリケーションにLLMを組み込む
 - Intent制御とスロット抽出をLLMの自然言語でコントロールする。
   - [アプリケーションLLMアーキテクチャ](./docs/logic.png)
-
+- MVPのゴール
+  -[MVP実装概要](./docs/mvp.png)
+  
 
 
 
