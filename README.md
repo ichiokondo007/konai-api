@@ -38,6 +38,6 @@ LLM-8850 は、Raspberry Pi 5 に接続して利用する **ローカルAI推論
 
 - [![Demo Video](https://img.youtube.com/vi/K3ddVWYeqjY/hqdefault.jpg)](https://youtu.be/K3ddVWYeqjY)
 
-- [<img src="https://img.youtube.com/vi/EyKqRY2Ho8U/hqdefault.jpg" width="640">](https://youtu.be/EyKqRY2Ho8U)
+- [![Demo Video](https://img.youtube.com/vi/EyKqRY2Ho8U/hqdefault.jpg)](https://youtu.be/EyKqRY2Ho8U)
 
 
