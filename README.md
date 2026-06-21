@@ -1,5 +1,5 @@
 
-# 🤖 Raspberry PIでローカルLLM 　　　
+<img src="./docs/bunner.png">
 - Raspberry pi5 + llm8850(NPU) でローカルLLMを動かしてエッジAIとして活用。
 
 <img src="./docs/llm8850.png" width="500">
