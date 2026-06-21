@@ -21,3 +21,9 @@ LLM-8850 は、Raspberry Pi 5 に接続して利用する **ローカルAI推論
 
 - あくまでもエッジAI用NPU(8G)なので、LLMは小規模モデル2B〜４B。
 - Axeraモデルとしてコンパイルしないと利用できない。（ AxeraモデルとしてGithubに用意されているもの推奨）
+
+## LOCAL LLM HISTORY
+
+
+
+
