@@ -2,7 +2,7 @@
 <img src="./docs/bunner.png">
 - Raspberry pi5 + llm8850(NPU) でローカルLLMを動かしてエッジAIとして活用。
 
-<img src="./docs/llm8850.png" width="500">
+<img src="./docs/llm8850.png">
 
 ## LLM8850 NPUとは？
 LLM-8850 は、Raspberry Pi 5 に接続して利用する **ローカルAI推論用のAIアクセラレータカード** です。
