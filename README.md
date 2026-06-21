@@ -26,14 +26,13 @@ LLM-8850 は、Raspberry Pi 5 に接続して利用する **ローカルAI推論
 [ローカルLLM　HISTORY](./docs/history.png)
 
 ## HOME LABのアプリケーションにLLMを組み込む
-- そもそもLLMとは？
-  - []
 - Intent制御とスロット抽出をLLMの自然言語でコントロールする。
   - [アプリケーションLLMアーキテクチャ](./docs/logic.png)
 - MVPのゴール
   - [MVP実装概要](./docs/mvp.png)
 
-- Qwen3-1.7Bの性能
+- 詳細設計（プロンプトエンジニアリング）
+  - [プロンプト設計](./docs/prompt.png)
   
 
 
