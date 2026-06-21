@@ -4,7 +4,7 @@
 
 <img src="./docs/llm8850.png">
 
-## LLM8850 NPUとは？
+## 🤖LLM8850 NPUとは？
 LLM-8850 は、Raspberry Pi 5 に接続して利用する **ローカルAI推論用のAIアクセラレータカード** です。
 中核には **Axera AX8850** というAI専用SoCが搭載されており、大規模言語モデル（LLM）や画像認識AIを、クラウドを使わずにエッジデバイス上で実行できます
 
@@ -22,16 +22,16 @@ LLM-8850 は、Raspberry Pi 5 に接続して利用する **ローカルAI推論
 - あくまでもエッジAI用NPU(8G)なので、LLMは小規模モデル2B〜４B。
 - Axeraモデルとしてコンパイルしないと利用できない。（ AxeraモデルとしてGithubに用意されているもの推奨）
 
-## LOCAL LLM HISTORY
+## 🤖LOCAL LLM HISTORY
 [ローカルLLM　HISTORY](./docs/history.png)
 
-## HOME LABのアプリケーションにLLMを組み込む
-- Intent制御とスロット抽出をLLMの自然言語でコントロールする。
+## 🤖HOME LABのアプリケーションにLLMを組み込む
+- １）Intent制御とスロット抽出をLLMの自然言語でコントロールする。
   - [アプリケーションLLMアーキテクチャ](./docs/logic.png)
-- MVPのゴール
+- ２）MVPのゴール
   - [MVP実装概要](./docs/mvp.png)
 
-- 詳細設計（プロンプトエンジニアリング）
+- ３）詳細設計（プロンプトエンジニアリング）
   - [プロンプト設計](./docs/prompt.png)
   
 
